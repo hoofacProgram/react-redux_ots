@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+import React, { Component } from 'react';
 
 export default class DisplayNumber extends Component {
   render() {
@@ -7,6 +7,6 @@ export default class DisplayNumber extends Component {
         <h1>Display Number</h1>
         <input type="text" value={this.props.number} readOnly></input>
       </div>
-    )
+    );
   }
 }
